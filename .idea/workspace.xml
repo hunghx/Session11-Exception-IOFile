@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae35ea16-fd63-4228-945b-c1fa0bb185d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session11-Exception-IOFIle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/MyUnCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/TriangleInValidException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/iofile/IOFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt/business/design/ICategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt/business/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt/business/impl/CategoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt/data/category.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt/presentation/CategoryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt/util/IOFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ra/bt/util/InputMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,12 +44,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CategoryManagement.executor": "Run",
     "Application.DemoException.executor": "Run",
     "Application.DemoFile.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/AD/Desktop/Session14-Java8",
     "node.js.detected.package.eslint": "true",
@@ -62,6 +62,31 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ra.bt.util" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CategoryManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ra.bt.presentation.CategoryManagement" />
+      <module name="Session11-Exception-IOFIle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ra.bt.presentation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CategoryManagement" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711627810018</updated>
-      <workItem from="1711627811415" duration="5755000" />
+      <workItem from="1711627811415" duration="9011000" />
     </task>
     <servers />
   </component>
